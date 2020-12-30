@@ -7,7 +7,7 @@ namespace TddExam
         public bool IsAutomorphicTester(int number)
         {
             if (number < 0)
-                throw new ArgumentOutOfRangeException($"Input must be positiv number. Input: {number}");
+                throw new ArgumentOutOfRangeException($"Input must be positive number. Input: {number}");
 
             var res = checked (number * number);
             return res.ToString().EndsWith(number.ToString());
