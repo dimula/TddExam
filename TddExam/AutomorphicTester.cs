@@ -4,7 +4,7 @@ namespace TddExam
 {
     public class AutomorphicTester 
     {
-        public bool IsAutomorphicTester(int number)
+        public bool IsAutomorphic(int number)
         {
             if (number < 0)
                 throw new ArgumentOutOfRangeException($"Input must be positive number. Input: {number}");
